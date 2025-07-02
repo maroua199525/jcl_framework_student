@@ -319,12 +319,6 @@ nano jobs/my_first_job.jcl
 ./scheduler.sh submit jobs/my_first_job.jcl
 ```
 
-4. **Explore Advanced Features:**
-   - Try container integration
-   - Set up monitoring
-   - Practice with cloud services
-   - Implement CI/CD pipelines
-
 ### Learning Resources:
 
 1. **Framework Documentation:**
