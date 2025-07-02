@@ -1,0 +1,14 @@
+//FILEPROC JOB CLASS=A,MSGCLASS=X,NOTIFY=&SYSUID
+//*
+//* File Processing Exercise - Student Assignment
+//* Demonstrates file I/O with COBOL and JCL dataset management
+//* Author: Student Exercise Framework
+//*
+//STEP1    EXEC PGM=FILE-PROCESSOR
+//INFILE   DD   DSN=STUDENT.INPUT.DATA,DISP=SHR
+//OUTFILE  DD   DSN=STUDENT.OUTPUT.DATA,DISP=(NEW,CATLG)
+//SYSOUT   DD   SYSOUT=*
+//*
+//STEP2    EXEC PGM=DISPLAY-OUTPUT,COND=(0,NE,STEP1)
+//DATASET  DD   DSN=STUDENT.OUTPUT.DATA,DISP=SHR
+//SYSOUT   DD   SYSOUT=*

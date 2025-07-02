@@ -1,0 +1,9 @@
+# Master Catalog - Dataset Registry
+# Format: DSN|TYPE|LOCATION|STATUS|CREATED|SIZE|RECORDS
+# 
+# This file will be populated when you allocate datasets using:
+# ./dataset_manager.sh allocate <dataset_name> <type> <size> <records>
+#
+# Example entries will appear like:
+# MY.TEST.DATA|PS|my_test_data.dat|ACTIVE|2025-01-01|1024|100
+# STUDENT.INPUT.DATA|PS|student_input_data.dat|ACTIVE|2025-01-01|2048|50

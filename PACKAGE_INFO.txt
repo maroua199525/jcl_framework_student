@@ -1,0 +1,20 @@
+JCL Framework Student Package
+=============================
+
+Created: Wed Jul  2 14:27:32 CET 2025
+Version: Student Edition
+Total Files: 29
+
+Package Contents:
+- Documentation and learning guides
+- Complete working framework
+- Hands-on exercises
+- Example JCL jobs and COBOL programs
+- Clean dataset structure
+
+Getting Started:
+1. Read WELCOME_STUDENTS.md
+2. Run ./demo.sh
+3. Follow STUDENT_EXERCISE_1.md
+
+For help: See GETTING_STARTED.md
